@@ -9,4 +9,14 @@
         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
         </view>
     </view>
+    <navigator 
+                target="self" 
+                open-type="navigate" 
+                url="/pages/log/log"
+                hover-class="navigator-hover" 
+                hover-start-time="50"
+                hover-stay-time="600"
+                hover-stop-propagation="true">
+                跳转到新页面
+            </navigator>
 </view>
